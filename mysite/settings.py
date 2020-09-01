@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # デフォルトのAPPSをコメントアウトすることで、対応するデフォルトのテーブルが作られなくなる
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
