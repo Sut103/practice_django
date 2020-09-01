@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=@et&^eg38jk89!l^#eojq!x_u%uced4&p+6ph8-k66^v4$2$!'
+SECRET_KEY = '=@et&^eg38jk89!l^#eojq!x_u%uced4&p+6ph8-k66^v4$2$!' # とりあえず、気にしない
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     # デフォルトのAPPSをコメントアウトすることで、対応するデフォルトのテーブルが作られなくなる
     'django.contrib.admin',
     'django.contrib.auth',
